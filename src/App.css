@@ -7,8 +7,9 @@
     font-family: 'CustomFont', sans-serif;
 }
 
-body {
-    overflow-y: auto; /* Abilita lo scorrimento verticale per il corpo della pagina */
+.accordion-body {
+    max-height: 300px; /* Imposta un'altezza massima */
+    overflow-y: auto; /* Aggiungi lo scorrimento verticale */
 }
 
 .burger-menu {
