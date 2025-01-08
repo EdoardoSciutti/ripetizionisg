@@ -7,11 +7,6 @@
     font-family: 'CustomFont', sans-serif;
 }
 
-.accordion-body {
-    max-height: 300px; /* Imposta un'altezza massima */
-    overflow-y: auto; /* Aggiungi lo scorrimento verticale */
-}
-
 .burger-menu {
     background: none;
     border: none;
