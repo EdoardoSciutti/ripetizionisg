@@ -7,6 +7,10 @@
     font-family: 'CustomFont', sans-serif;
 }
 
+body {
+    overflow-y: auto; /* Abilita lo scorrimento verticale per il corpo della pagina */
+}
+
 .burger-menu {
     background: none;
     border: none;
