@@ -6,7 +6,7 @@ function Home() {
     return (
         <>
             <Navbar />
-            <div className="container main-content" style={{ position: 'relative', paddingBottom: '20vh'}}>
+            <div className="container main-content" style={{ position: 'relative'}}>
                 <h1>Ripetizioni da studenti per studenti</h1>
                 <p>Siamo un gruppo di studenti appassionati che credono nel valore della collaborazione e dell'apprendimento condiviso. Offriamo ripetizioni per studenti di tutte le età e livelli scolastici, con un approccio giovane e dinamico che ci consente di comprendere al meglio le tue esigenze e difficoltà.</p>
                 <p>Perché scegliere noi?</p>
