@@ -13,28 +13,33 @@ import Courses from './pages/Courses.jsx';
 import Course from './pages/Course.jsx';
 import store from './stores/store';
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Home />
+    },
+    {
+      path: '/about',
+      element: <About />
+    },
+    {
+      path: '/contact',
+      element: <Contact />
+    },
+    {
+      path: '/courses',
+      element: <Courses />
+    },
+    {
+      path: '/course/:id',
+      element: <Course />
+    }
+  ],
   {
-    path: '/',
-    element: <Home />
-  },
-  {
-    path: '/about',
-    element: <About />
-  },
-  {
-    path: '/contact',
-    element: <Contact />
-  },
-  {
-    path: '/courses',
-    element: <Courses />
-  },
-  {
-    path: '/course/:id',
-    element: <Course />
+    basename: '/ripetizionisg' // Sostituisci 'nome-repository' con il nome del tuo repository
   }
-]);
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
